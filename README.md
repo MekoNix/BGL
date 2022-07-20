@@ -1,2 +1,2 @@
 # BGL
-BSSID geolocation logger 
+BSSID geolocation locator
