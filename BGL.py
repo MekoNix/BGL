@@ -11,7 +11,6 @@ netsh = os.popen('netsh wlan show all  | find "BSSID"')
 for id in netsh.readlines():
     f.write(id)
 f.close()
-from ftplib import FTP
 ftp = FTP('ftpname')
 ftp.login(user="user",passwd="password")
 ftp.cwd(dirname="htdocs")
